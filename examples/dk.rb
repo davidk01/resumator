@@ -10,7 +10,11 @@ resume = Resumator.resume do
 
   education school: "UC Davis", degree: "B.S. in Mathematics", start_date: "2005", end_date: "2007"
 
+  experience title: "operations engineer", company: "Triggit", start_date: "May. 2014",
+   summary: %Q(DevOps, Infrastructure, Tools, Monitoring, Automation, etc.)
+
   experience title: "devops", company: "Platfora", start_date: "Jan. 2014",
+   end_date: "May. 2014",
    summary: %Q(DevOps, Infrastructure, Tools, Automation, etc.)
 
   experience title: "software engineer", company: "ebay", start_date: "Sep. 2012",
@@ -27,6 +31,10 @@ resume = Resumator.resume do
     pieces of Ruby and Python. My crowning achievement was a ray tracer that was a few orders 
     of magnitude faster than all previously built versions and helped track down a bug in the 
     heliostat tracking table generation and compression pipeline.)
+
+  project title: "aot", link: "https://github.com/davidk01/aot",
+   summary: %Q(Declarative cluster configuration for a collection of AWS EC2 instances. Depends on
+   Paramiko and Boto.)
 
   project title: "decmux", link: "https://github.com/davidk01/declarative-tmux-layouts",
    summary: %Q(Ruby DSL for declarative tmux layout configuration along with command 
