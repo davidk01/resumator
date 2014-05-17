@@ -10,7 +10,10 @@ I solve problems with software.
 * ### UC Davis - B.S. in Mathematics : 2005 - 2007
 
 # Experience
-* ### Platfora - devops : Jan. 2014 - Present
+* ### Triggit - operations engineer : May. 2014 - Present
+DevOps, Infrastructure, Tools, Monitoring, Automation, etc.
+
+* ### Platfora - devops : Jan. 2014 - May. 2014
 DevOps, Infrastructure, Tools, Automation, etc.
 
 * ### ebay - software engineer : Sep. 2012 - Jan. 2014
@@ -27,6 +30,10 @@ I designed and implemented software tools for testing and verification of
     heliostat tracking table generation and compression pipeline.
 
 # Projects
+* ### [aot](https://github.com/davidk01/aot)
+Declarative cluster configuration for a collection of AWS EC2 instances. Depends on
+   Paramiko and Boto.
+
 * ### [decmux](https://github.com/davidk01/declarative-tmux-layouts)
 Ruby DSL for declarative tmux layout configuration along with command 
    execution and nesting.
