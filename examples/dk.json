@@ -1,0 +1,184 @@
+{
+   "settings":{
+      "glyphicons":true
+   },
+   "firstname":"David",
+   "familyname":"Karapetyan",
+   "github_id":"davidk01",
+   "bio_data":{
+      "email":"dkarapetyan@gmail.com",
+      "phone":"+1 (818) 523-2661",
+      "website":"http://scriptcrafty.com",
+      "stars":[
+         "Ruby", "Python", "JavaScript", "TypeScript", "C#", "Java", "Bash", "PowerShell", "Chef", "Puppet", "SQLite", "Git"
+      ],
+      "summary":{
+         "points":[
+            "I design and implement software based solutions by leveraging my training in pure mathematics."
+         ]
+      },
+      "github_projects":{
+         "details":[
+            {
+              "project_name":"davidk01/rpc-experiment",
+              "tagline":"Scalable remote procedure calling with JRuby",
+              "description":[
+                "A little experiment with nio4r (non-blocking asynchronous I/O), celluloid (actor based concurrency), and JRuby (super easy deployment) for building a scalable and plugin based orchestration mechanism."
+              ]
+            },
+            {
+               "project_name":"davidk01/pegrb",
+               "tagline":"Pure Ruby parser combinator library inspired by Peg.js and OMeta",
+               "description":[
+                  "Parser combinator library embedded and implemented in pure Ruby to help with designing parsers for network protocols, command line clients, programming languages, etc."]
+            },
+            {
+               "project_name":"davidk01/essentials-of-programming-languages",
+               "tagline":"Parsers, compilers, virtual machines, interpreters, etc.",
+               "description":[
+                  "This project grew out of a need to understand fundamental concepts in programming languages. It currently contains parsers and compilers for different kinds of languages at various stages of completion."]
+            },
+            {
+               "project_name":"davidk01/apt-repo-construction-kit",
+               "tagline":"Boilerplate for generating debian package repository structure",
+               "description":[
+                  "As an infrastructure and DevOps engineer I'm constantly setting up package repositories for deploying code. This process is non-trivial so automating it provides significant gains in productivity."]
+            },
+            {
+               "project_name":"davidk01/aot",
+               "tagline":"Declarative AWS configuration",
+               "description":[
+                  "Instead of constantly constructing AWS cluster configurations manually by hand I wanted a declarative way to do it. This project is a Python library built on top of boto that helps with provisioning and configuring AWS nodes in a nice and declarative format."]
+            },
+            {
+               "project_name":"davidk01/oat",
+               "tagline":"Declarative OpenStack configuration",
+               "description":[
+                  "Same idea as for aot, i.e. declarative cloud cluster configurations, but written in Ruby and for OpenStack providers instead of AWS."
+               ]
+            },
+            {
+               "project_name":"davidk01/decmux",
+               "tagline":"Declarative tmux layout configuration with a Ruby DSL",
+               "description":[
+                 "Ruby DSL for declarative tmux layout configuration along with command execution and nesting. Helpful when you have a tmux workspace that you want to re-create after a reboot."
+               ]
+            }
+         ]
+      },
+      "skills":{
+         "details":[
+            {
+               "type":"Programming Languages",
+               "items":[
+                  "Ruby", "Python", "Bash", "C#", "JavaScript", "TypeScript"
+               ]
+            },
+            {
+               "type":"Automation",
+               "items":[
+                  "Chef", "Puppet", "Bash"
+               ]
+            },
+            {
+               "type":"Web Frameworks",
+               "items":[
+                  "Sinatra", "Flask"
+               ]
+            },
+            {
+               "type":"Databases",
+               "items":[
+                  "MySQL", "PostgreSQL", "SQLite", "Solr", "Elasticsearch"
+               ]
+            },
+            {
+               "type":"General Interests",
+               "items":[
+                  "Parsers", "Compilers", "Interpreters", "Virtual Machines", "Type Theory", "Category Theory", "Infrastructure Automation"
+               ]
+            }
+         ]
+      },
+      "education":{
+         "schools":[
+            {
+               "degree":"Master of Arts",
+               "major":"Mathematics",
+               "institution":"USC",
+               "graduation_year":2010
+            },
+            {
+               "degree":"Bachelor of Science",
+               "major":"Mathematics",
+               "institution":"UC Davis",
+               "graduation_year":2007
+            }
+         ]
+      },
+      "experience":{
+         "items":[
+            {
+               "title":"Operations Engineer",
+               "organisation":"Triggit",
+               "location":"San Francisco, CA",
+               "from":"May 2014",
+               "to":"Now",
+               "details":[
+                 "I introduced modern provisioning and deployment practices into a legacy infrastructure by refactoring and improving Chef cookbooks and separating the provisioning pipeline from the deployment pipeline by introducing a build server and a Debian package repository into the existing workflows. This has significantly reduced the complexity and increased modularity of infrastructure code and tools."
+               ],
+               "technology_used":{
+                  "tools":[
+                     "Ruby", "Chef", "Go", "AWS", "Git"
+                  ]
+               }
+            },
+            {
+               "title":"DevOps Engineer",
+               "organisation":"Platfora",
+               "location":"San Mateo, CA",
+               "from":"Jan. 2014",
+               "to":"May 2014",
+               "details":[
+                 "I developed tools for automating Hadoop cluster provisioning and reduced cluster spin-up times to minutes. Along the way I also developed tools for managing AWS clusters and integrated those tools with Jenkins and Atlassian Bamboo, a continuous integration server."
+               ],
+               "technology_used":{
+                  "tools":[
+                     "Ruby", "Python", "Java", "Hadoop", "Chef", "AWS", "Bamboo", "Jira", "Git"
+                  ]
+               }
+            },
+            {
+               "title":"Software Engineer",
+               "organisation":"eBay",
+               "location":"San Jose, CA",
+               "from":"Sep. 2012",
+               "to":"Jan. 2014",
+               "details":[
+                 "I developed Chef based tools and migrated the old Puppet based infrastructure to Debian packages with Chef based pre/post-install logic. This reduced the complexity of the infrastructure maintenace code and was a big hit with developers because it brought the infrastructure under their control and helped them better manage the deployment and provisioning of their software with greater precision."
+               ],
+               "technology_used":{
+                  "tools":[
+                     "Ruby", "Python", "Puppet", "Ubuntu", "Solr", "Apache", "Nginx", "Chef", "OpenStack", "Git"
+                  ]
+               }
+            },
+            {
+               "title":"Software Test Engineer",
+               "organisation":"eSolar",
+               "location":"Burbank, CA",
+               "from":"Oct. 2011",
+               "to":"Sep. 2012",
+               "details":[
+                 "I wrote ray tracing software in C# for validating correctness of software that controlled fields of heliostats. My ray tracer was several orders of magnitude faster than any previously built versions and helped track down a bug in the heliostat tracking table generator that had been in production for 4+ years. Previous ray tracers had been unable to detect the bug because it took days to run a simulation and my ray tracer was able to reduce that time to mere minutes and provide faster feedback."
+               ],
+               "technology_used":{
+                  "tools":[
+                     "C#", "Python", "Ruby", "Microsoft SQL Server", "Windows Server", "PowerShell", "Virtual Machine Manager", "Team Foundation Server", "Visual Studio"
+                  ]
+               }
+            }
+         ]
+      }
+   }
+}
